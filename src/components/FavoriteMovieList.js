@@ -7,7 +7,7 @@ import { removeFavorite } from '../actions/favoritesActions';
 const FavoriteMovieList = (props) => {
     const { favorites, removeFavorite } = props;
 
-    const handleClick = () => {
+    const handleClick = (id) => {
         removeFavorite(id);
     }
     
